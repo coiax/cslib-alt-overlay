@@ -1,0 +1,61 @@
+# ChangeLog for media-libs/libvpx
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/media-libs/libvpx/ChangeLog,v 1.12 2011/02/03 20:41:47 ssuominen Exp $
+
+*libvpx-0.9.5-r1 (03 Feb 2011)
+
+  03 Feb 2011; Samuli Suominen <ssuominen@gentoo.org> +libvpx-0.9.5-r1.ebuild,
+  +files/libvpx-0.9.5-enable-shared.patch:
+  Always build shared libraries with generic-gnu target wrt #351496 by Markus
+  Meier.
+
+  10 Dec 2010; Markos Chandras <hwoarang@gentoo.org> libvpx-0.9.5.ebuild:
+  Stable on amd64 wrt bug #345559
+
+  09 Dec 2010; Christian Faulhammer <fauli@gentoo.org> libvpx-0.9.5.ebuild:
+  stable x86, security bug 345559
+
+*libvpx-0.9.5 (08 Nov 2010)
+
+  08 Nov 2010; Luca Barbato <lu_zero@gentoo.org> +libvpx-0.9.5.ebuild,
+  libvpx-9999.ebuild:
+  New version
+
+  22 Oct 2010; Petteri Räty <betelgeuse@gentoo.org> libvpx-0.9.2.ebuild,
+  libvpx-9999.ebuild:
+  Force -j1 to emake install until the build system is patched. Bug #323805.
+
+  24 Sep 2010; Markos Chandras <hwoarang@gentoo.org>
+  libvpx-0.9.0_p20100612.ebuild:
+  Stable on amd64 wrt bug #332361
+
+  17 Sep 2010; Christian Faulhammer <fauli@gentoo.org>
+  libvpx-0.9.0_p20100612.ebuild:
+  stable x86, security bug 332361
+
+*libvpx-0.9.2 (07 Sep 2010)
+
+  07 Sep 2010; Luca Barbato <lu_zero@gentoo.org> +libvpx-0.9.2.ebuild:
+  New version
+
+  12 Jun 2010; Dror Levin <spatz@gentoo.org> libvpx-0.9.0_p20100612.ebuild,
+  libvpx-9999.ebuild, metadata.xml:
+  Add altivec,mmx,sse,sse2,sse3,ssse3 USE flags, consolidate live and normal
+  ebuilds.
+
+  12 Jun 2010; Dror Levin <spatz@gentoo.org> libvpx-0.9.0_p20100612.ebuild,
+  libvpx-9999.ebuild:
+  Only dep on yasm in x86/amd64.
+
+*libvpx-0.9.0_p20100612 (12 Jun 2010)
+
+  12 Jun 2010; Dror Levin <spatz@gentoo.org> +libvpx-0.9.0_p20100612.ebuild,
+  libvpx-9999.ebuild:
+  Added snapshot, bug 320817. Remove unneeded eutils inherit.
+
+*libvpx-9999 (10 Jun 2010)
+
+  10 Jun 2010; Luca Barbato <lu_zero@gentoo.org> +libvpx-9999.ebuild:
+  Initial live ebuild, 0.9.0 release _SHOULD_NOT_ be put into portage, thanks
+  to the people in bug #320817 for the support
+

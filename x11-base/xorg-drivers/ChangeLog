@@ -1,0 +1,158 @@
+# ChangeLog for x11-base/xorg-drivers
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-base/xorg-drivers/ChangeLog,v 1.41 2011/02/14 23:58:29 xarthisius Exp $
+
+  14 Feb 2011; Kacper Kowalik <xarthisius@gentoo.org>
+  xorg-drivers-1.9.ebuild:
+  ppc stable wrt #344827, #354237
+
+  14 Feb 2011; Tomáš Chvátal <scarabeus@gentoo.org> xorg-drivers-1.7.ebuild,
+  xorg-drivers-1.9.ebuild:
+  Say goodbye to xgi video card.
+
+  12 Feb 2011; Raúl Porcel <armin76@gentoo.org> xorg-drivers-1.9.ebuild:
+  alpha/ia64/sh/sparc stable wrt #344827
+
+  09 Feb 2011; Tomáš Chvátal <scarabeus@gentoo.org>
+  -xorg-drivers-1.8.ebuild:
+  old
+
+  31 Dec 2010; Jeroen Roovers <jer@gentoo.org> xorg-drivers-1.9.ebuild:
+  Stable for HPPA (bug #344827).
+
+  29 Dec 2010; Markus Meier <maekke@gentoo.org> xorg-drivers-1.9.ebuild:
+  arm stable, bug #344827
+
+  25 Dec 2010; Christian Faulhammer <fauli@gentoo.org>
+  xorg-drivers-1.9.ebuild:
+  x86 stable, bug 344827
+
+  23 Dec 2010; Samuli Suominen <ssuominen@gentoo.org> xorg-drivers-1.9.ebuild:
+  amd64 stable wrt #344827
+
+  19 Dec 2010; Samuli Suominen <ssuominen@gentoo.org> xorg-drivers-1.9.ebuild:
+  ppc64 stable wrt #344827
+
+  19 Sep 2010; Tomáš Chvátal <scarabeus@gentoo.org>
+  xorg-drivers-1.7.ebuild, xorg-drivers-1.8.ebuild, xorg-drivers-1.9.ebuild:
+  Drop radeonhd.
+
+*xorg-drivers-1.9 (12 Sep 2010)
+
+  12 Sep 2010; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  +xorg-drivers-1.9.ebuild:
+  Version bump.
+
+  11 Sep 2010; Tomáš Chvátal <scarabeus@gentoo.org>
+  -xorg-drivers-1.6.ebuild:
+  remove old
+
+  02 Aug 2010; Raúl Porcel <armin76@gentoo.org> xorg-drivers-1.7.ebuild:
+  alpha/ia64/sh/sparc stable wrt #308521
+
+  14 Jul 2010; Fabio Erculiani <lxnay@gentoo.org> xorg-drivers-1.7.ebuild,
+  xorg-drivers-1.8.ebuild:
+  re-enable xf86-input-fpit, ABI issues have been fixed, not revbumping for
+  now, close bug #321175
+
+  13 Jul 2010; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  xorg-drivers-1.7.ebuild:
+  add nouveau as it is stable now
+
+  20 Jun 2010; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  xorg-drivers-1.8.ebuild:
+  add elographics driver back as the new release works with X.org 1.8
+
+  31 May 2010; Guy Martin <gmsoft@gentoo.org> xorg-drivers-1.7.ebuild:
+  hppa stable, #308521
+
+  12 May 2010; Brent Baude <ranger@gentoo.org> xorg-drivers-1.7.ebuild:
+  Marking xorg-drivers-1.7 ppc64 stable for bug 308521
+
+  18 Apr 2010; Markus Meier <maekke@gentoo.org> xorg-drivers-1.7.ebuild:
+  arm stable, bug #308521
+
+  18 Apr 2010; <nixnut@gentoo.org> xorg-drivers-1.7.ebuild:
+  ppc stable #308521
+
+  16 Apr 2010; Pacho Ramos <pacho@gentoo.org> xorg-drivers-1.7.ebuild:
+  amd64 stable, bug 308521
+
+  13 Apr 2010; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  xorg-drivers-1.8.ebuild:
+  now that mask is in place, add xf86-video-nouveau dependency, bug #309991
+
+*xorg-drivers-1.8 (13 Apr 2010)
+
+  13 Apr 2010; Tomáš Chvátal <scarabeus@gentoo.org>
+  +xorg-drivers-1.8.ebuild:
+  Version bump to 1.8 release.
+
+  10 Apr 2010; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  xorg-drivers-1.7.ebuild:
+  drop unnecessary blocks
+
+  09 Apr 2010; Christian Faulhammer <fauli@gentoo.org>
+  xorg-drivers-1.7.ebuild:
+  stable x86, bug 308521
+
+  03 Apr 2010; Chí-Thanh Christopher Nguyễn <chithanh@gentoo.org>
+  xorg-drivers-1.7.ebuild:
+  add back xf86-input-penmount
+
+  15 Dec 2009; Brent Baude <ranger@gentoo.org> xorg-drivers-1.6.ebuild:
+  Marking xorg-drivers-1.6 ppc64 stable for bug 294958
+
+  15 Dec 2009; Raúl Porcel <armin76@gentoo.org> xorg-drivers-1.6.ebuild:
+  alpha/ia64/sh/sparc stable
+
+  13 Dec 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.6.ebuild,
+  xorg-drivers-1.7.ebuild:
+  clean up blockers
+
+  15 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.6.ebuild:
+  sync with overlay, imstt and vermilon are blocked, drop USE flags
+
+  15 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.7.ebuild:
+  sync with overlay, imstt and vermilon are blocked, drop USE flags
+
+  05 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.7.ebuild:
+  sync with overlay, use xf86-input-wacom instead of linuxwacom
+
+  02 Nov 2009; Rémi Cardona <remi@gentoo.org> xorg-drivers-1.7.ebuild:
+  block unmaintained input drivers: citron, elographics, fpit, hyperpen,
+  mutouch, penmount
+
+  01 Nov 2009; Mike Auty <ikelos@gentoo.org> xorg-drivers-1.7.ebuild:
+  Temporarily remove wacom support from xorg-drivers-1.7 until
+  xf86-input-wacom makes it to the main tree (see bug 290730).
+
+  26 Oct 2009; Jeroen Roovers <jer@gentoo.org> xorg-drivers-1.6.ebuild:
+  Stable for HPPA (bug #282290).
+
+  11 Oct 2009; nixnut <nixnut@gentoo.org> xorg-drivers-1.6.ebuild:
+  ppc stable #282290
+
+  09 Oct 2009; Markus Meier <maekke@gentoo.org> xorg-drivers-1.6.ebuild:
+  arm stable, bug #282290
+
+  05 Oct 2009; Christian Faulhammer <fauli@gentoo.org>
+  xorg-drivers-1.6.ebuild:
+  stable x86, bug 282290
+
+*xorg-drivers-1.7 (02 Oct 2009)
+
+  02 Oct 2009; Tomáš Chvátal <scarabeus@gentoo.org>
+  +xorg-drivers-1.7.ebuild:
+  Bump packages for xorg-server-1.7.
+
+  30 Sep 2009; Samuli Suominen <ssuominen@gentoo.org>
+  xorg-drivers-1.6.ebuild:
+  amd64 stable wrt #282290
+
+*xorg-drivers-1.6 (04 Sep 2009)
+
+  04 Sep 2009; Rémi Cardona <remi@gentoo.org> +xorg-drivers-1.6.ebuild,
+  +metadata.xml:
+  add xorg-drivers meta ebuild from the x11 overlay
+

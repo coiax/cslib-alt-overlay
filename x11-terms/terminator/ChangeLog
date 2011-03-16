@@ -1,0 +1,65 @@
+# ChangeLog for x11-terms/terminator
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/x11-terms/terminator/ChangeLog,v 1.14 2011/01/29 18:31:23 jlec Exp $
+
+  29 Jan 2011; Justin Lecher <jlec@gentoo.org> terminator-0.95.ebuild:
+  Moved dependencies from dev-python/gnome-python to splitted ones
+
+  05 Dec 2010; Justin Lecher <jlec@gentoo.org> -terminator-0.93.ebuild,
+  -terminator-0.94.ebuild:
+  Cleaned all unstable Versions
+
+  05 Dec 2010; Markos Chandras <hwoarang@gentoo.org> terminator-0.95.ebuild:
+  Stable on amd64 wrt bug #347131
+
+  04 Dec 2010; Pawel Hajdan jr <phajdan.jr@gentoo.org>
+  terminator-0.95.ebuild:
+  x86 stable wrt bug #347131
+
+*terminator-0.95 (05 Sep 2010)
+
+  05 Sep 2010; Justin Lecher <jlec@gentoo.org> +terminator-0.95.ebuild:
+  Version Bump, USE dbus added for dbus support
+
+  13 Jul 2010; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+  metadata.xml:
+  Added missing herd tag to metadata.xml
+
+*terminator-0.94 (04 Jul 2010)
+
+  04 Jul 2010; Justin Lecher <jlec@gentoo.org> +files/0.94-session.patch,
+  +terminator-0.94.ebuild:
+  Version BUmp, added installation of multiple abis
+
+  25 Apr 2010; Justin Lecher <jlec@gentoo.org> +files/0.93-session.patch,
+  terminator-0.93.ebuild:
+  Adding patch for broken gnome-session support until fixed by upstream,
+  #316155
+
+  25 Apr 2010; Justin Lecher <jlec@gentoo.org> -terminator-0.90.ebuild,
+  -terminator-0.91.ebuild, -terminator-0.92.ebuild, terminator-0.93.ebuild:
+  Cleaned old versions, Fixed new PYTHON ABI compatibility, #317039
+
+*terminator-0.93 (16 Apr 2010)
+
+  16 Apr 2010; Justin Lecher <jlec@gentoo.org> +terminator-0.93.ebuild:
+  Version Bump
+
+*terminator-0.92 (08 Apr 2010)
+
+  08 Apr 2010; Justin Lecher <jlec@gentoo.org> +terminator-0.92.ebuild:
+  Version Bump
+
+*terminator-0.91 (03 Apr 2010)
+
+  03 Apr 2010; Justin Lecher <jlec@gentoo.org> +terminator-0.91.ebuild:
+  Version Bump, missind DEPEND intltool added, #312925 & #312905
+
+*terminator-0.90 (31 Mar 2010)
+
+  31 Mar 2010; Justin Lecher <jlec@gentoo.org>
+  +files/0.90-without-icon-cache.patch, +terminator-0.90.ebuild,
+  +metadata.xml:
+  Import from sunrise, #213243
+  Thanks Ivan Toshkov for the initial contribution
+

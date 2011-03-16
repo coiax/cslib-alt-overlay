@@ -1,0 +1,41 @@
+# ChangeLog for dev-libs/tinyxml
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/tinyxml/ChangeLog,v 1.8 2011/02/11 18:43:31 xarthisius Exp $
+
+  11 Feb 2011; Kacper Kowalik <xarthisius@gentoo.org> tinyxml-2.6.1.ebuild:
+  Marked ~ppc wrt #314833
+
+  05 Jun 2010; Raúl Porcel <armin76@gentoo.org>
+  tinyxml-2.5.3_p20090813-r1.ebuild, tinyxml-2.6.1.ebuild:
+  Add ~ia64/~sparc wrt #314833
+
+  25 May 2010; Bernard Cafarelli <voyageur@gentoo.org> metadata.xml:
+  Take package over, filezilla is the only current consumer
+
+*tinyxml-2.6.1 (22 May 2010)
+
+  22 May 2010; Lars Wendler <polynomial-c@gentoo.org> +files/Makefile-2,
+  +tinyxml-2.6.1.ebuild:
+  non-maintainer commit: version bump (bug #318665). Thanks to Jacek
+  Szafarkiewicz for new Makefile and bug report.
+
+*tinyxml-2.5.3_p20090813-r1 (12 Apr 2010)
+
+  12 Apr 2010; Samuli Suominen <ssuominen@gentoo.org>
+  +tinyxml-2.5.3_p20090813-r1.ebuild, files/Makefile, metadata.xml:
+  Support for USE="stl" wrt #314669
+
+  07 Mar 2010; Samuli Suominen <ssuominen@gentoo.org>
+  tinyxml-2.5.3_p20090813.ebuild:
+  Keyword ~x86 by lazy_bum.
+
+  13 Aug 2009; Samuli Suominen <ssuominen@gentoo.org>
+  tinyxml-2.5.3_p20090813.ebuild, +files/Makefile:
+  Replace scons with custom Makefile wrt #281301.
+
+*tinyxml-2.5.3_p20090813 (13 Aug 2009)
+
+  13 Aug 2009; Samuli Suominen <ssuominen@gentoo.org>
+  +tinyxml-2.5.3_p20090813.ebuild:
+  Initial commit wrt #90041.
+
